@@ -396,6 +396,313 @@
 // }
 
 
+
+// 1.push()
+// used to add element at the end of array.
+// let arr=[1,2,3,4];
+// arr.push(5);
+// console.log(arr);//[ 1, 2, 3, 4, 5 ]
+
+
+
+
+// 2.pop()
+// used to remove last element from an array
+// let arr2=[ 1, 2, 3, 4, 5 ];
+// arr2.pop();
+// console.log(arr2);[ 1, 2, 3, 4 ]
+
+
+
+
+// 3.unshift()
+// used to add element in the first position of an array.
+// let arr=[ 1, 2, 3, 4 ];
+// arr.unshift(0);
+// console.log(arr);//[ 0, 1, 2, 3, 4 ]
+
+
+
+
+// 4.shift()
+// used to remove first element of an array.
+
+
+// let arr=[ 0, 1, 2, 3, 4 ]
+// arr.shift();
+// console.log(arr);//[ 1, 2, 3, 4 ]
+
+
+
+
+// 5.indexOf
+// used to find the index of element of an array.
+
+
+// let arr=[ 1, 2, 3, 4 ];
+// let index=arr.indexOf(3);
+// console.log(index);//2
+
+
+// let arr=["swapnil","sutkar","vishal","shankar"];
+// let index=arr.indexOf("vishal");
+// console.log(index);//2
+
+
+
+
+// 6.slice()
+// used to get part of an array as slice.
+// slice(startIndex,endIndex)
+// it will return array elements from startIndex to endIndex - 1.
+//in array then it will return -1.
+
+
+// let arr=[10,20,30,40,50];
+// let newArr=arr.slice(0,3);
+// console.log(newArr);//[ 10, 20, 30 ]
+
+
+// let arr=["swapnil","sutkar","vishal","shankar"];
+// let newArr=arr.slice(0,3);
+// console.log(newArr);//[ 'swapnil', 'sutkar', 'vishal' ]
+
+
+// splice :
+// using splice method we can add element or remove elements from an array.
+// Syntax:
+// splice(startIndex,noOfElements,item,.....)
+// noOfElements => delete count how many elements you want to remove
+// -startIndex is mandatory other parameters are not mandatory based on requirement
+// you can add or remove.
+// -splice method modifies the original array.
+
+
+// let arr =[5,10,15,20,32,25,30];
+// arr.splice(4,1);
+// console.log(arr);//[ 5, 10, 15, 20, 25, 30 ]
+
+
+// let arr =[5,10,15,20,30];
+// arr.splice(4,0,25);
+// console.log(arr);//[ 5, 10, 15, 20, 25, 30 ]
+
+
+// let arr=[0,10,20,30,40];
+// arr.splice(0,1);
+// console.log(arr);//[10, 20, 30, 40]
+
+
+// let arr=[10,20,30,40,50];
+// arr.splice(5,0,60,70,80,90,100);
+// console.log(arr);//[
+//   10, 20, 30, 40,  50,
+//   60, 70, 80, 90, 100
+// ]
+
+
+// let x="swapnil";
+
+
+// for(let char of x){
+//     console.log(char);
+// }
+
+
+// s
+// w
+// a
+// p
+// n
+// i
+// l
+
+
+// concat()
+// -----------
+// concatinating 2 arrays and returns new array
+
+
+// let arr=[5,10,15];
+// let arr2=[20,25,30];
+// let arr3=arr.concat(arr2);
+// console.log(arr3);
+// [ 5, 10, 15, 20, 25, 30 ]
+
+
+// var arr1 = [10,20,30];
+// var arr2= [40,50,60];
+// var arr3 = [70,80]
+// //concat
+// var newArr = arr1.concat(arr2,arr3);
+// console.log(newArr);
+// [ 10, 20, 30, 40, 50, 60, 70, 80]
+
+
+//reverse the conents of the array
+
+
+// let arr=[10,9,8,7,6,5,4,3,2,1];
+// arr.reverse();
+// console.log(arr);//[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+// let arr1= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// arr1.reverse();
+// console.log(arr1);//[10,9,8,7,6,5,4,3,2,1];
+
+
+//sort the elements of an array alphabatic or number based on its contents.
+
+
+// var techArr = ["Angular","Html","Css","Bootstrap"];
+// var newTechArr = techArr.sort();
+// console.log(newTechArr);//[ 'Angular', 'Bootstrap', 'Css', 'Html' ]
+
+
+// let  arr=['Html',"Py","Css","Js","Bootstrap","Ts"];
+// arr.sort();
+// console.log(arr);// ["Bootstrap", "Css", "Html", "Js", "Py", "Ts"]
+
+
+// var num = [20, 10, 60, 200, 30, 50];
+// var num2 = num.sort(function (a, b) {
+//     if (a > b) return 1;
+//     if (a < b) return -1;
+//     else return 0;
+// });
+// console.log(num2);//[ 10, 20, 30, 50, 60, 200 ]
+
+
+
+
+// let num=[5,15,10,30,25,20,40,45,35,50];
+// let num2=num.sort(function(x,y){
+// if(x>y) return 1;
+// if(x<y)return -1;
+// else return 0;
+// });
+
+
+// console.log(num2);//[5,10,15,20,25,30,35,40,45,50]
+
+
+// -filter method will filter the element based on some condition and it will creates new
+// array with element.
+// -filter method doesn't modify the original array but it returns new array.
+
+
+// let ages =[17,18,12,19,25,32,21];
+// let adutls=ages.filter(ages=>ages>=18);
+// console.log(adutls);//[ 18, 19, 25, 32, 21 ]
+
+
+// var productArr = [
+//     { productName: "Mobile", price: 30000, category: "Mobiles" },
+//     { productName: "Table", price: 4000, category: "furniture" },
+//     { productName: "Laptop", price: 50000, category: "electronics" },
+//     { productName: "Tv", price: 25000, category: "electronics" },
+// ]
+// var newArr = productArr.filter(function (item) {
+//     if (item.category == "electronics") {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// })
+// console.log(newArr);
+
+
+
+
+// [
+//   { productName: 'Laptop', price: 50000, category: 'electronics' },
+//   { productName: 'Tv', price: 25000, category: 'electronics' }
+// ]
+
+
+// using Arrow function(shortest syntax)
+// ------------
+// var newArr = productArr.filter((item:any)=> item.category == "electronics");
+// console.log(newArr)
+
+
+
+
+// let sum=[5,10,15,20,25,30,35,40,45,50];
+// let sumnum=sum.filter(sum=>(sum%2==0));
+// console.log(sumnum);
+//[ 10, 20, 30, 40, 50 ]
+
+
+
+
+// let odd=[5,10,15,20,25,30,35,40,45,50];
+// let oddnum=odd.filter(odd=>(odd%2!==0));
+// console.log(oddnum);
+
+
+//[ 5, 15, 25, 35, 45 ]
+
+
+
+
+// var productArr = [
+//     { productName: "Mobile", price: 30000, category: "Mobiles" },
+//     { productName: "Table", price: 4000, category: "furniture" },
+//     { productName: "Laptop", price: 50000, category: "electronics" },
+//     { productName: "Tv", price: 25000, category: "electronics" },
+// ]
+
+
+// using arrow function
+// --------------
+// var newArr = productArr.map((el) => {
+//     el.price = el.price - 100;
+//     return el;
+// })
+// console.log(newArr);
+
+
+// [
+//   { productName: 'Mobile', price: 29900, category: 'Mobiles' },
+//   { productName: 'Table', price: 3900, category: 'furniture' },
+//   { productName: 'Laptop', price: 49900, category: 'electronics' },
+//   { productName: 'Tv', price: 24900, category: 'electronics' }
+// ]
+
+
+
+
+// var arr = [10, 20, 30, 40];
+// var newarr = arr.map((el) => el * 5);
+// console.log(newarr);
+// //[ 50, 100, 150, 200 ]
+
+
+// reduce()
+// ==========
+// reduce() method used to reduce elements/values of array into a single value.
+
+
+
+
+// let price= [10, 2, 700];
+// let total=price.reduce((sum,price)=>sum +price,0);
+// console.log(total);//712
+
+
+
+
+// let arr= [10, 2, 700];
+// let result=0;
+
+
+// for(let n=0;n<arr.length;n++){
+//     result=result+arr[n];
+// }
+// console.log(result);//712
+
 // let Arr=[10,2,3,5,4];
 // Arr.pop();
 // console.log(Arr);
