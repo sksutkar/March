@@ -990,20 +990,20 @@
 
 
 
-function CallData(userId, callback) {
-    setTimeout(() => {
-        if (userId) {
-            const user = {
-                Id: userId,
-                Name: "Swapnil Sutkar",
-                EmailId: "swap@712gmail.com"
-            };
-            callback(null, user)
-        } else {
-            callback(new Error('Invalid User ID'));
-        }
-    }, 2500);
-}
+// function CallData(userId, callback) {
+//     setTimeout(() => {
+//         if (userId) {
+//             const user = {
+//                 Id: userId,
+//                 Name: "Swapnil Sutkar",
+//                 EmailId: "swap@712gmail.com"
+//             };
+//             callback(null, user)
+//         } else {
+//             callback(new Error('Invalid User ID'));
+//         }
+//     }, 2500);
+// }
 
 // CallData(1, (error, user) => {
 //     if(error) {
