@@ -110,6 +110,8 @@
 // console.log(IsPalindrome(212));
 
 
+// palindrome in string
+
 // let str="reder";
 // let rev="";
 
@@ -291,6 +293,7 @@
 
 // console.log(countVowels("arivond"));
 
+//Armstrong Number
 
 // let num=153;
 // let temp=num;
