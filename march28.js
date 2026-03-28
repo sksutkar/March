@@ -21,6 +21,34 @@
 // console.log("The Reverse Number", Res);
 
 
+// Reverse In String
+
+// function ReverseString(str) {
+//     return str.split("").reverse().join('');
+// }
+
+// console.log(ReverseString("Swapnil"));
+
+
+// const ResString=Str=>[...Str].reverse().join('');
+// console.log(ResString("Swap..."));
+
+
+// Sum of Digits of a Number
+
+
+let num = 7128;
+let sum = 0;
+
+
+while (num > 0) {
+    sum += num % 10;
+    num = Math.floor(num / 10);
+}
+
+console.log("The Sum of Digits", sum);
+
+
 
 
 
