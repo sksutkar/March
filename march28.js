@@ -8,17 +8,18 @@
 
 // Reverse a Number
 
-let Num = 712;
-let Res = 0;
+// let Num = 712;
+// let Res = 0;
 
-while (Num > 0) {
-    let R = Num % 10;
-    Res = Res * 10 + R;
-    Num = Math.floor(Num / 10);
+// while (Num > 0) {
+//     let R = Num % 10;
+//     Res = Res * 10 + R;
+//     Num = Math.floor(Num / 10);
 
-}
+// }
 
-console.log("The Reverse Number", Res);
+// console.log("The Reverse Number", Res);
+
 
 
 
