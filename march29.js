@@ -154,6 +154,14 @@
 
 // console.log("Array after removing duplicates:", DuplicateArrayNumber);
 
+// IMP Example of Set and Flat
+
+
+// const uniqueNums = new Set([1, 2, 3, 3, 4, 4, 5,5,4,8]);
+// console.log(uniqueNums);
+
+// let Array=[1,2,[5,6],[5,4,8,[8,9]]];
+// console.log(Array.flat(2));
 
 
 //Pattern Printing Triangle
@@ -201,3 +209,60 @@
 
 
 // console.log(MissingNumber([710,711,713,714]));
+
+
+//fibonacci of number series
+
+// let num=5;
+// let a=0,b=1;
+
+
+// for(let i=1;i<=num; i++){
+//     c=a+b;
+//     console.log(c);
+//     a=b;
+//     b=c;
+    
+// }
+
+
+// Binary  search  and Linear Search 
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let target=5;
+
+// for (let i=0;i<arr.length;i++){
+//     if(arr[i]==target){
+//         console.log("found the element...");
+//         break;
+//     }
+// }
+
+
+// Bubble Sort and Selection Sort and Insertion Sort  In Number
+
+
+// let arr=[64, 34, 25, 12, 22, 11, 90];
+
+// let num=arr.sort(function (a,b) {
+//     if (a>b) {
+//         return 1;
+//     }
+
+//     if(a<b){
+//         return -1;
+//     }
+// })
+
+// console.log(num);
+
+//Bubble Sort and Selection Sort and Insertion Sort  In String
+
+// let  arr=['Html',"Py","Css","Js","Bootstrap","Ts"];
+// arr.sort();
+// console.log(arr);
+
+
+
+
+
