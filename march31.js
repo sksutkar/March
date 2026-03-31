@@ -1,7 +1,5 @@
 //31/03/26
 
-const { where } = require("firebase/firestore/lite");
-
 //Reverse a Number
 
 // let num = 151;
