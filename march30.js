@@ -1,6 +1,5 @@
 //30/3/26
 
-
 //Reverse a Number
 
 let num = 159;
@@ -323,3 +322,4 @@ console.log("Bubble Sort Number",Sorting);
  let  arr5=['Html',"Postman","Jira","Css","Js","Bootstrap","Ts","Angular"];
 arr5.sort();
 console.log("Bubble Sort String ",arr5);
+
